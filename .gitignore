@@ -1,0 +1,15 @@
+# Secrets — jamais dans git
+bridge_token
+*.key
+*.pem
+gateway.db
+gateway.db-shm
+gateway.db-wal
+gateway.log
+# Config locale
+bridge_target
+public_url.txt
+# Python
+venv/
+__pycache__/
+*.pyc
